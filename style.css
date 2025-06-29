@@ -3,7 +3,9 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
 }
 
 .container {
@@ -21,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -38,7 +41,7 @@
 
 .navigation-holder {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
@@ -109,10 +112,10 @@
     display: flex;
 }
 
-.into-title {
+.info-title {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #fff;
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
@@ -224,17 +227,16 @@
 }
 
 .time {
-    color: white;
+    color: #fff;
     position: absolute;
     top: 10px;
     right: 0;
 }
 
-
 .course-section-title {
     font-weight: 600;
     font-size: 70px;
-    color: #1a1a1a;
+    color: #1A1A1A;
     margin: 60px 0;
 }
 
@@ -252,7 +254,7 @@
     width: 360px;
 }
 
-.img-container {
+.image-container {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -265,7 +267,7 @@
 }
 
 .img-card-1 {
-    background-image: url(./img/card-1.png);
+    background-image: url('./img/card-1.png');
 }
 
 .btn-time {
@@ -285,14 +287,14 @@
     padding: 6px 12px;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .course-category {
     font-size: 13px;
     letter-spacing: 2px;
     color: #bababa;
-    font-weight: 400px;
+    font-weight: 400;
     margin: 18px 0;
 }
 
@@ -306,20 +308,20 @@
 
 .course-desc {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #767676;
     line-height: 1.7;
     letter-spacing: 0.5px;
 }
 
 .img-card-2 {
-    background-image: url(./img/card-2.png);
+    background-image: url('./img/card-2.png');
 }
 
 .img-card-3 {
-    background-image: url(./img/card-3.png)
+    background-image: url('./img/card-3.png');
 }
 
 .img-card-4 {
-    background-image: url(./img/card-4.png)
+    background-image: url('./img/card-4.png');
 }
